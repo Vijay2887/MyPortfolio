@@ -47,12 +47,6 @@ Vijay-Portfolio/
  ```bash
 cd Vijay-Portfolio
 
-3.**Open index.html in Your Web Browser:**
-
- ```bash
- open index.html
-
-
 ##Usage
 -> Navigation: Use the hamburger menu on mobile devices for easy access to different sections like Home, Projects, Contact, and Achievements.
 -> Typing Animation: Observe the dynamic display of roles in the main content section.
