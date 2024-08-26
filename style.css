@@ -24,8 +24,6 @@ body {
     font-family: poppins;
     font-size: 2rem;
     font-weight: 600;
-
-
 }
 
 .navbar-left p:hover {
@@ -79,6 +77,12 @@ body {
     }
 }
 
+#hamburger-menu {
+    display: none; /* Hidden by default */
+    font-size: 24px; /* Adjust the size as needed */
+    cursor: pointer;
+    color: #ffffff; /* Ensure the icon color contrasts with the background */
+}
 
 
 hr {
@@ -367,4 +371,78 @@ hr {
     
     }
     
+}
+
+@media (max-width: 700px) {
+
+
+    .navbar-left p{
+        font-family: poppins;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    #nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        background-color: rgb(0, 0, 0);
+        
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Show the hamburger icon */
+    #hamburger-menu {
+        display: block; /* Show the icon on smaller screens */
+    }
+
+    /* Show the navigation links when the navbar is active */
+    .navbar.active #nav-links {
+        display: flex;
+    }
+
+    .section-one{
+
+       
+        margin: 50px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-one-image {
+        margin-top: 40px;
+        
+    }
+
+    .section-one-image img {
+        position: static;
+        animation: wobble 2.5s infinite ease-in-out
+    }
+
+    .section-two{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .section-two-timeline{
+
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
 }
