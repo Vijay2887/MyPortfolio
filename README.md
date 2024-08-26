@@ -45,7 +45,7 @@ Vijay-Portfolio/
 2. **Navigate to the Project Directory:**
    
  ```bash
- cd Vijay-Portfolio
+cd Vijay-Portfolio
 
 3.**Open index.html in Your Web Browser:**
 
